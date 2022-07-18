@@ -30,6 +30,11 @@ struct Fasting: View {
                         .font(.title2)
                         .fontWeight(.heavy)
                         .foregroundColor(Color.orange)
+                    
+                  
+                    LottieView(name: "56866-your-food-order-have-been-scheduled", loopMode: .loop).frame(width:300)
+                            .padding(.leading, -5)
+                    
                    
                     
                 }

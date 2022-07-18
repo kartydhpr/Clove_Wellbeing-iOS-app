@@ -11,10 +11,21 @@
 		C72E9133286BB3EC00698C04 /* Fasting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72E9132286BB3EC00698C04 /* Fasting.swift */; };
 		C78B5A89286A644D007BC1AC /* WeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78B5A88286A644D007BC1AC /* WeightView.swift */; };
 		C78FB48F286934940078CF39 /* WeightCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FB48E286934940078CF39 /* WeightCapture.swift */; };
+		C79C71C52871CF3000F2C979 /* 56866-your-food-order-have-been-scheduled.json in Resources */ = {isa = PBXBuildFile; fileRef = C79C71C42871CF3000F2C979 /* 56866-your-food-order-have-been-scheduled.json */; };
+		C7A7262E28739AE7008B251A /* weight_scale.json in Resources */ = {isa = PBXBuildFile; fileRef = C7A7262D28739AE7008B251A /* weight_scale.json */; };
+		C7A7263028739B6B008B251A /* weight_scale2.json in Resources */ = {isa = PBXBuildFile; fileRef = C7A7262F28739B6B008B251A /* weight_scale2.json */; };
 		C7C5E84228525FA100879940 /* WeightMapperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C5E84128525FA100879940 /* WeightMapperApp.swift */; };
 		C7C5E84428525FA100879940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C5E84328525FA100879940 /* ContentView.swift */; };
 		C7C5E84628525FA300879940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C5E84528525FA300879940 /* Assets.xcassets */; };
 		C7C5E84928525FA300879940 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C5E84828525FA300879940 /* Preview Assets.xcassets */; };
+		C7CC704C286FA7B200DD053A /* 9258-bouncing-fruits.json in Resources */ = {isa = PBXBuildFile; fileRef = C7CC704B286FA7B200DD053A /* 9258-bouncing-fruits.json */; };
+		C7CC704E286FA7BE00DD053A /* 44425-glass-water.json in Resources */ = {isa = PBXBuildFile; fileRef = C7CC704D286FA7BE00DD053A /* 44425-glass-water.json */; };
+		C7CC7050286FA7D800DD053A /* 72436-green-leafs-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = C7CC704F286FA7D800DD053A /* 72436-green-leafs-loader.json */; };
+		C7CC7054286FA7E900DD053A /* 84602-green-wave.json in Resources */ = {isa = PBXBuildFile; fileRef = C7CC7053286FA7E900DD053A /* 84602-green-wave.json */; };
+		C7ED78D1286D0BE4005FA47E /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = C7ED78D0286D0BE4005FA47E /* SwiftUICharts */; };
+		C7ED78D4286D130F005FA47E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C7ED78D3286D130F005FA47E /* Lottie */; };
+		C7ED78DA286D15AC005FA47E /* 63272-walking-avocado.json in Resources */ = {isa = PBXBuildFile; fileRef = C7ED78D9286D15AC005FA47E /* 63272-walking-avocado.json */; };
+		C7ED78DE286D164D005FA47E /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ED78DD286D164D005FA47E /* LottieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,11 +33,20 @@
 		C72E9132286BB3EC00698C04 /* Fasting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fasting.swift; sourceTree = "<group>"; };
 		C78B5A88286A644D007BC1AC /* WeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightView.swift; sourceTree = "<group>"; };
 		C78FB48E286934940078CF39 /* WeightCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightCapture.swift; sourceTree = "<group>"; };
-		C7C5E83E28525FA100879940 /* WeightMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeightMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79C71C42871CF3000F2C979 /* 56866-your-food-order-have-been-scheduled.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "56866-your-food-order-have-been-scheduled.json"; path = "../../../../../.Trash/56866-your-food-order-have-been-scheduled.json"; sourceTree = "<group>"; };
+		C7A7262D28739AE7008B251A /* weight_scale.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = weight_scale.json; path = ../../../../../Downloads/weight_scale.json; sourceTree = "<group>"; };
+		C7A7262F28739B6B008B251A /* weight_scale2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = weight_scale2.json; path = ../../../../../Downloads/weight_scale2.json; sourceTree = "<group>"; };
+		C7C5E83E28525FA100879940 /* Clove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C5E84128525FA100879940 /* WeightMapperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightMapperApp.swift; sourceTree = "<group>"; };
 		C7C5E84328525FA100879940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C7C5E84528525FA300879940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7C5E84828525FA300879940 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7CC704B286FA7B200DD053A /* 9258-bouncing-fruits.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "9258-bouncing-fruits.json"; path = "../../../../../Downloads/9258-bouncing-fruits.json"; sourceTree = "<group>"; };
+		C7CC704D286FA7BE00DD053A /* 44425-glass-water.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "44425-glass-water.json"; path = "../../../../../Downloads/44425-glass-water.json"; sourceTree = "<group>"; };
+		C7CC704F286FA7D800DD053A /* 72436-green-leafs-loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "72436-green-leafs-loader.json"; path = "../../../../../Downloads/72436-green-leafs-loader.json"; sourceTree = "<group>"; };
+		C7CC7053286FA7E900DD053A /* 84602-green-wave.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "84602-green-wave.json"; path = "../../../../../Downloads/84602-green-wave.json"; sourceTree = "<group>"; };
+		C7ED78D9286D15AC005FA47E /* 63272-walking-avocado.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "63272-walking-avocado.json"; sourceTree = "<group>"; };
+		C7ED78DD286D164D005FA47E /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7ED78D1286D0BE4005FA47E /* SwiftUICharts in Frameworks */,
+				C7ED78D4286D130F005FA47E /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +65,7 @@
 		C7C5E83528525FA100879940 = {
 			isa = PBXGroup;
 			children = (
-				C7C5E84028525FA100879940 /* WeightMapper */,
+				C7C5E84028525FA100879940 /* Clove */,
 				C7C5E83F28525FA100879940 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,24 +73,24 @@
 		C7C5E83F28525FA100879940 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7C5E83E28525FA100879940 /* WeightMapper.app */,
+				C7C5E83E28525FA100879940 /* Clove.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C7C5E84028525FA100879940 /* WeightMapper */ = {
+		C7C5E84028525FA100879940 /* Clove */ = {
 			isa = PBXGroup;
 			children = (
+				C7ED78D8286D14E9005FA47E /* Components */,
+				C7ED78D7286D14DB005FA47E /* Lottie */,
 				C7C5E84128525FA100879940 /* WeightMapperApp.swift */,
 				C7C5E84328525FA100879940 /* ContentView.swift */,
 				C7C5E84528525FA300879940 /* Assets.xcassets */,
+				C7ED78D5286D14B4005FA47E /* Main Views */,
+				C7ED78D6286D14CF005FA47E /* Sub Views */,
 				C7C5E84728525FA300879940 /* Preview Content */,
-				C78B5A88286A644D007BC1AC /* WeightView.swift */,
-				C72E9130286BABD700698C04 /* WaterTracker.swift */,
-				C78FB48E286934940078CF39 /* WeightCapture.swift */,
-				C72E9132286BB3EC00698C04 /* Fasting.swift */,
 			);
-			path = WeightMapper;
+			path = Clove;
 			sourceTree = "<group>";
 		};
 		C7C5E84728525FA300879940 /* Preview Content */ = {
@@ -79,12 +101,53 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C7ED78D5286D14B4005FA47E /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				C78B5A88286A644D007BC1AC /* WeightView.swift */,
+				C72E9130286BABD700698C04 /* WaterTracker.swift */,
+				C72E9132286BB3EC00698C04 /* Fasting.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		C7ED78D6286D14CF005FA47E /* Sub Views */ = {
+			isa = PBXGroup;
+			children = (
+				C78FB48E286934940078CF39 /* WeightCapture.swift */,
+			);
+			path = "Sub Views";
+			sourceTree = "<group>";
+		};
+		C7ED78D7286D14DB005FA47E /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				C7CC704B286FA7B200DD053A /* 9258-bouncing-fruits.json */,
+				C7CC704D286FA7BE00DD053A /* 44425-glass-water.json */,
+				C7A7262D28739AE7008B251A /* weight_scale.json */,
+				C7A7262F28739B6B008B251A /* weight_scale2.json */,
+				C79C71C42871CF3000F2C979 /* 56866-your-food-order-have-been-scheduled.json */,
+				C7CC704F286FA7D800DD053A /* 72436-green-leafs-loader.json */,
+				C7CC7053286FA7E900DD053A /* 84602-green-wave.json */,
+				C7ED78D9286D15AC005FA47E /* 63272-walking-avocado.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		C7ED78D8286D14E9005FA47E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C7ED78DD286D164D005FA47E /* LottieView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C7C5E83D28525FA100879940 /* WeightMapper */ = {
+		C7C5E83D28525FA100879940 /* Clove */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7C5E84C28525FA300879940 /* Build configuration list for PBXNativeTarget "WeightMapper" */;
+			buildConfigurationList = C7C5E84C28525FA300879940 /* Build configuration list for PBXNativeTarget "Clove" */;
 			buildPhases = (
 				C7C5E83A28525FA100879940 /* Sources */,
 				C7C5E83B28525FA100879940 /* Frameworks */,
@@ -94,9 +157,13 @@
 			);
 			dependencies = (
 			);
-			name = WeightMapper;
+			name = Clove;
+			packageProductDependencies = (
+				C7ED78D0286D0BE4005FA47E /* SwiftUICharts */,
+				C7ED78D3286D130F005FA47E /* Lottie */,
+			);
 			productName = WeightMapper;
-			productReference = C7C5E83E28525FA100879940 /* WeightMapper.app */;
+			productReference = C7C5E83E28525FA100879940 /* Clove.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C7C5E83928525FA100879940 /* Build configuration list for PBXProject "WeightMapper" */;
+			buildConfigurationList = C7C5E83928525FA100879940 /* Build configuration list for PBXProject "Clove" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,11 +190,15 @@
 				Base,
 			);
 			mainGroup = C7C5E83528525FA100879940;
+			packageReferences = (
+				C7ED78CF286D0BE4005FA47E /* XCRemoteSwiftPackageReference "ChartView" */,
+				C7ED78D2286D130F005FA47E /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = C7C5E83F28525FA100879940 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C7C5E83D28525FA100879940 /* WeightMapper */,
+				C7C5E83D28525FA100879940 /* Clove */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +209,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7C5E84928525FA300879940 /* Preview Assets.xcassets in Resources */,
+				C7CC704C286FA7B200DD053A /* 9258-bouncing-fruits.json in Resources */,
+				C79C71C52871CF3000F2C979 /* 56866-your-food-order-have-been-scheduled.json in Resources */,
 				C7C5E84628525FA300879940 /* Assets.xcassets in Resources */,
+				C7CC704E286FA7BE00DD053A /* 44425-glass-water.json in Resources */,
+				C7A7263028739B6B008B251A /* weight_scale2.json in Resources */,
+				C7ED78DA286D15AC005FA47E /* 63272-walking-avocado.json in Resources */,
+				C7A7262E28739AE7008B251A /* weight_scale.json in Resources */,
+				C7CC7050286FA7D800DD053A /* 72436-green-leafs-loader.json in Resources */,
+				C7CC7054286FA7E900DD053A /* 84602-green-wave.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +232,7 @@
 				C7C5E84228525FA100879940 /* WeightMapperApp.swift in Sources */,
 				C72E9131286BABD700698C04 /* WaterTracker.swift in Sources */,
 				C78B5A89286A644D007BC1AC /* WeightView.swift in Sources */,
+				C7ED78DE286D164D005FA47E /* LottieView.swift in Sources */,
 				C72E9133286BB3EC00698C04 /* Fasting.swift in Sources */,
 				C78FB48F286934940078CF39 /* WeightCapture.swift in Sources */,
 			);
@@ -282,7 +362,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WeightMapper/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Clove/Preview Content\"";
 				DEVELOPMENT_TEAM = S6R55N8Z8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -297,7 +377,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.karteikaydhuper.WeightMapper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karteikaydhuper.Clove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,7 +392,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"WeightMapper/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Clove/Preview Content\"";
 				DEVELOPMENT_TEAM = S6R55N8Z8S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -327,7 +407,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.karteikaydhuper.WeightMapper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.karteikaydhuper.Clove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -338,7 +418,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C7C5E83928525FA100879940 /* Build configuration list for PBXProject "WeightMapper" */ = {
+		C7C5E83928525FA100879940 /* Build configuration list for PBXProject "Clove" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7C5E84A28525FA300879940 /* Debug */,
@@ -347,7 +427,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7C5E84C28525FA300879940 /* Build configuration list for PBXNativeTarget "WeightMapper" */ = {
+		C7C5E84C28525FA300879940 /* Build configuration list for PBXNativeTarget "Clove" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C7C5E84D28525FA300879940 /* Debug */,
@@ -357,6 +437,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7ED78CF286D0BE4005FA47E /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+		C7ED78D2286D130F005FA47E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7ED78D0286D0BE4005FA47E /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7ED78CF286D0BE4005FA47E /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		C7ED78D3286D130F005FA47E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7ED78D2286D130F005FA47E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C7C5E83628525FA100879940 /* Project object */;
 }

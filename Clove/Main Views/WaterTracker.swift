@@ -15,7 +15,7 @@ struct WaterTracker: View {
                     Text("Water")
                         .font(.largeTitle)
                         .fontWeight(.heavy)
-                        .foregroundColor(Color(hue: 0.492, saturation: 1.0, brightness: 1.0))
+                        .foregroundColor(Color.blue)
                     Text("Track your water intake!")
                         .font(.title3)
                         .fontWeight(.bold)
@@ -31,12 +31,30 @@ struct WaterTracker: View {
                     Text("Water Intake")
                         .font(.title2)
                         .fontWeight(.heavy)
-                        .foregroundColor(Color(hue: 0.492, saturation: 1.0, brightness: 1.0))
-                   
+                        .foregroundColor(Color.blue)
+                    
+                    HStack {
+                        ForEach(0 ..< 4) { item in
+                            LottieView(name: "44425-glass-water", loopMode: .loop).frame(width:80)
+                                .padding(.leading, -5)
+                        }
+                        
+                    }
+                    
+                    HStack{
+                        ForEach(0 ..< 4) { item in
+                            LottieView(name: "44425-glass-water", loopMode: .loop).frame(width:80)
+                                .padding(.leading, -5)
+                            
+                        }
+                    }
+                    
+            
+                            
                     
                 }
                 .padding(.all)
-                .frame(width: 350.0, height: 400)
+                .frame(width: 350.0, height: 300)
                 .background(Color(hue: 1.0, saturation: 0.015, brightness: 0.155, opacity: 0.595))
                 .cornerRadius(18)
                 

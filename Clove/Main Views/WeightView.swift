@@ -6,42 +6,64 @@
 //
 
 import SwiftUI
+import SwiftUICharts
+import Lottie
 
 struct WeightView: View {
     @State private var showingWeightCapture = false
+//    @State var weightData: [Double] = [82.9,81.6,80.4,79.9,80.4]
+    
+    @ObservedObject var dataStore = weightStore()
+
     
     var body: some View {
         ScrollView(showsIndicators: false) {
+            HStack {
                 VStack(alignment: .leading, spacing:7           ){
-                    Text("Clove")
-                        .font(.largeTitle)
-                        .fontWeight(.heavy)
-                        .foregroundColor(Color("Primary"))
-                    Text("Welcome back!")
-                        .font(.title3)
-                        .fontWeight(.bold)
-                        .multilineTextAlignment(.leading)
-                    
-                }
-                .padding(.leading, -170)
-                .frame(width: 350.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0)
+                    HStack {
+                        Text("Clove")
+                                .font(.largeTitle)
+                                .fontWeight(.heavy)
+                            .foregroundColor(Color("Primary"))
+                        LottieView(name: "72436-green-leafs-loader", loopMode: .loop).frame(width:50)
+                            .padding(.leading, -5)
+                       
+                    }
+                        Text("Welcome back!")
+                            .font(.title3)
+                            .fontWeight(.bold)
+                            .multilineTextAlignment(.leading)
+                            .padding(.top, -30)
+                        
+                    }
+                    .padding(.leading, -170)
+                    .frame(width: 350.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0)
+//                LottieView(name: "72436-green-leafs-loader", loopMode: .loop).frame(width:200)
+//                    .padding(.leading, -150)
+            }
                 
                 // Vertical Stack Card for Weight Mapping
                 
                 VStack(alignment: .leading, spacing: 16.0) {
+                    
                     Text("Weight Map")
                         .font(.title2)
                         .fontWeight(.heavy)
                         .foregroundColor(Color("Primary"))
-                    Text("This is your weight map")
-                        .font(.title3)
-                        .fontWeight(.bold)
-                        .foregroundColor(Color.white)
-                    Text("A visual representation of your weight management journey starting from your first day using the app!")
+//                    Text("This is your weight map")
+//                        .font(.title3)
+//                        .fontWeight(.bold)
+//                        .foregroundColor(Color.white)
+                    
+                    LineChartView(data: $dataStore.weightData, title: "Kilograms", legend: "Scrub graph to view exact weight!", form: CGSize(width: 320, height: 250), rateValue: nil, dropShadow: false).foregroundColor(.primary)
+                    
+                    Text("This is a visual representation of the general trajectory of your weight since you started using Clove!").fontWeight(.semibold)
+                    
+
                     
                 }
                 .padding(.all)
-                .frame(width: 350.0, height: 400)
+                .frame(width: 350.0, height: 430)
                 .background(Color(hue: 1.0, saturation: 0.015, brightness: 0.155, opacity: 0.595))
                 .cornerRadius(18)
                 
@@ -101,7 +123,10 @@ struct WeightView: View {
                 .padding(.bottom, -1.0)
             
                 VStack(alignment: .leading, spacing: 16.0){
-                    Text("Here's a look at your progress towards reaching your weight goal!")
+                    
+                    LottieView(name: "56866-your-food-order-have-been-scheduled", loopMode: .loop).frame(width:200)
+                        .padding(.leading, -150)
+                    Text("Here's a look at your progress towards reaching your weight goal!").fontWeight(.semibold)
 
                     ProgressView(value: 0.5)
                         .accentColor(Color("Primary"))
@@ -123,4 +148,9 @@ struct WeightView_Previews: PreviewProvider {
         WeightView()
             .preferredColorScheme(.dark)
     }
+}
+
+class weightStore: ObservableObject
+{
+    @Published var weightData = [82.9,81.6,80.4,79.9,80.4]
 }

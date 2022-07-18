@@ -6,29 +6,35 @@
 //
 
 import SwiftUI
+import Lottie
+
 
 struct WeightCapture: View {
     
     @State var weight: Double = 0.00
-    
+    @ObservedObject var dataStore = weightStore()
     
     var body: some View {
         ScrollView{
+
             VStack(alignment: .leading, spacing:7    ){
                 Text("Let's get tracking!")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .foregroundColor(Color("Primary"))
+            
                 Text("Add your weight below")
                     .font(.title3)
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.leading)
+                
                 
             }
             .padding(.leading, -35.0)
             .padding(.top, 20.0)
             .padding(.bottom)
             .frame(width: 350.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0)
+            
             
             VStack(alignment: .leading, spacing: 25) {
                 HStack(spacing: 20){
@@ -38,6 +44,7 @@ struct WeightCapture: View {
                    .padding(.top, 50)
                     .labelsHidden()
                     .rotationEffect(.degrees(-90))
+                    
                     
                     Text("\(weight, specifier: "%.1f")")
                     .font(.system(size: 50))
@@ -98,6 +105,7 @@ struct WeightCapture: View {
             .foregroundColor(Color.black)
             .cornerRadius(18)
             .padding(.top, 7.0)
+            
 
             
         }
@@ -111,3 +119,4 @@ struct WeightCapture_Previews: PreviewProvider {
             .preferredColorScheme(.dark)
     }
 }
+
